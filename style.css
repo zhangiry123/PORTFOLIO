@@ -24,11 +24,6 @@ body {
   transform: scale(1);
 }
 
-.screen.hide {
-  opacity: 0;
-  transform: scale(0.9);
-}
-
 .menu {
   display: flex;
   justify-content: center;
