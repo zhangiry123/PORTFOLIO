@@ -60,11 +60,12 @@
     buttons.forEach(btn => {
       btn.addEventListener('click', () => {
         const section = btn.getAttribute('data-section');
+        // hide home
         document.getElementById('home').classList.remove('show');
-        document.getElementById('home').classList.add('hide');
+        // show chosen section
         setTimeout(() => {
           document.getElementById(section).classList.add('show');
-        }, 400);
+        }, 300);
       });
     });
 
@@ -73,12 +74,10 @@
       back.addEventListener('click', () => {
         screens.forEach(screen => screen.classList.remove('show'));
         setTimeout(() => {
-          document.getElementById('home').classList.remove('hide');
           document.getElementById('home').classList.add('show');
-        }, 400);
+        }, 300);
       });
     });
   </script>
 </body>
 </html>
-
