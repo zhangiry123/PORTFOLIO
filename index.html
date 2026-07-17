@@ -48,8 +48,8 @@
       btn.addEventListener('click', () => {
         const section = btn.getAttribute('data-section');
         document.getElementById('home').classList.remove('show');
+        document.getElementById('home').classList.add('hide');
         setTimeout(() => {
-          document.getElementById('home').classList.add('hide');
           document.getElementById(section).classList.add('show');
         }, 400);
       });
