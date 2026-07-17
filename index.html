@@ -7,9 +7,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Home Screen -->
+
+  <!-- Home -->
   <div id="home" class="screen show">
     <h1>Welcome to My Homepage</h1>
+
     <div class="menu">
       <button data-section="about">About Me</button>
       <button data-section="essay">Essay</button>
@@ -17,23 +19,25 @@
     </div>
   </div>
 
-  <!-- About Me -->
+  <!-- About -->
   <div id="about" class="screen">
     <h2>About Me</h2>
+
     <p>
-      My name is Zhangir Yestayev, and I am a student with a deep commitment to academics and competitive sports. 
-      I have developed a strong foundation in computer science and applied mathematics through courses such as Harvard’s CS50x and CS50P, 
-      where I gained hands‑on experience in programming languages like Python, C, SQL, and JavaScript. 
-      These studies have sharpened my analytical skills and strengthened my interest in pursuing applied mathematics and systems analysis as future career paths. 
-      I enjoy tackling complex problems, learning new concepts, and applying knowledge in ways that connect theory with real‑world solutions.
+      My name is Zhangir Yestayev, and I am a student with a deep commitment
+      to academics and competitive sports. I have developed a strong
+      foundation in computer science and applied mathematics through courses
+      such as Harvard's CS50x and CS50P, where I gained hands-on experience
+      in Python, C, SQL, and JavaScript.
     </p>
+
     <p>
-      Beyond academics, I actively compete in chess and Brazilian Jiu‑Jitsu, both of which demand discipline, resilience, and strategic thinking. 
-      In chess, I have earned recognition in tournaments including a second‑place finish at the United Nations Games Chess 2025, 
-      while in Brazilian Jiu‑Jitsu I have achieved podium finishes at IBJJF competitions, such as first place at the New York Spring International Open 2026. 
-      These experiences, along with my involvement in soccer, have taught me how to perform under pressure, work effectively with others, and remain consistent in pursuit of growth. 
-      I strive to combine intellectual rigor with athletic discipline, preparing myself to make meaningful contributions in both academic and professional settings.
+      Beyond academics, I actively compete in chess and Brazilian Jiu-Jitsu.
+      These experiences have taught me discipline, resilience, and strategic
+      thinking while strengthening my passion for applied mathematics and
+      computer science.
     </p>
+
     <button class="back">Back to Home</button>
   </div>
 
@@ -41,6 +45,7 @@
   <div id="essay" class="screen">
     <h2>Essay</h2>
     <p>This is where your essay will appear.</p>
+
     <button class="back">Back to Home</button>
   </div>
 
@@ -48,36 +53,35 @@
   <div id="portfolio" class="screen">
     <h2>Portfolio</h2>
     <p>This is where your portfolio projects will be displayed.</p>
+
     <button class="back">Back to Home</button>
   </div>
 
   <script>
-    const buttons = document.querySelectorAll('.menu button');
-    const backButtons = document.querySelectorAll('.back');
-    const screens = document.querySelectorAll('.screen');
+    const screens = document.querySelectorAll(".screen");
+    const menuButtons = document.querySelectorAll(".menu button");
+    const backButtons = document.querySelectorAll(".back");
 
-    // Show selected section
-    buttons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const section = btn.getAttribute('data-section');
-        // hide home
-        document.getElementById('home').classList.remove('show');
-        // show chosen section
-        setTimeout(() => {
-          document.getElementById(section).classList.add('show');
-        }, 300);
+    function showScreen(id) {
+      screens.forEach(screen => {
+        screen.classList.remove("show");
+      });
+
+      document.getElementById(id).classList.add("show");
+    }
+
+    menuButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        showScreen(button.dataset.section);
       });
     });
 
-    // Back to home
-    backButtons.forEach(back => {
-      back.addEventListener('click', () => {
-        screens.forEach(screen => screen.classList.remove('show'));
-        setTimeout(() => {
-          document.getElementById('home').classList.add('show');
-        }, 300);
+    backButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        showScreen("home");
       });
     });
   </script>
+
 </body>
 </html>
