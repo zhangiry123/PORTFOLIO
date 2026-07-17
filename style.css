@@ -162,3 +162,34 @@ button:hover {
 }
 
 .portfolio-container::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  button {
+    width: 220px;
+  }
+
+  .portfolio-container {
+    max-height: 70vh;
+  }
+
+  .card {
+    padding: 18px;
+  }
+}
