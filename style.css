@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #fff;
-  color: #000;
+  background: #000;   /* black background */
+  color: #fff;        /* white text */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,17 +39,17 @@ body {
 .menu button, .back {
   padding: 12px 20px;
   font-size: 16px;
-  border: 2px solid #000;
-  background: #fff;
-  color: #000;
+  border: 2px solid #fff;
+  background: #000;
+  color: #fff;
   cursor: pointer;
   transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
 }
 
 .menu button:hover, .back:hover {
   transform: scale(1.1);
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .back {
