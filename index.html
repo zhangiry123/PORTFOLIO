@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Homepage</h1>
+    <div class="menu">
+      <button data-section="about">About Me</button>
+      <button data-section="essay">Essay</button>
+      <button data-section="portfolio">Portfolio</button>
+    </div>
+    <div id="content" class="content"></div>
+  </div>
+
+  <script>
+    const buttons = document.querySelectorAll('.menu button');
+    const content = document.getElementById('content');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const section = btn.getAttribute('data-section');
+        let text = '';
+
+        if (section === 'about') {
+          text = '<h2>About Me</h2><p>This is where you describe yourself.</p>';
+        } else if (section === 'essay') {
+          text = '<h2>Essay</h2><p>This is where your essay will appear.</p>';
+        } else if (section === 'portfolio') {
+          text = '<h2>Portfolio</h2><p>This is where your portfolio projects will be displayed.</p>';
+        }
+
+        content.classList.remove('show');
+        setTimeout(() => {
+          content.innerHTML = text;
+          content.classList.add('show');
+        }, 200);
+      });
+    });
+  </script>
+</body>
+</html>
