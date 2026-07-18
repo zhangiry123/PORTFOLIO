@@ -10,23 +10,7 @@ const items = [
         caption: "Leadership Award – City College of New York STEM Institute (April 2026)"
     },
 
-    {
-        type: "image",
-        src: "topproject1.jpg",
-        caption: "Receiving the Top Project Award – Markets in Public Plazas"
-    },
-
-    {
-        type: "image",
-        src: "topproject2.jpg",
-        caption: "Presenting the Sunday Market NYC Project"
-    },
-
-    {
-        type: "image",
-        src: "topproject3.jpg",
-        caption: "Holding the Top Project Award after the presentation"
-    },
+    
 
     {
         type: "image",
