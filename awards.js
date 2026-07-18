@@ -143,37 +143,6 @@ const items = [
     },
 
 
-
-    // =========================
-    // EXTRA CERTIFICATES
-    // =========================
-
-    {
-        type: "image",
-        src: "certificate1.jpg",
-        caption: "Academic Recognition"
-    },
-
-    {
-        type: "image",
-        src: "certificate2.jpg",
-        caption: "Competition Certificate"
-    },
-
-    {
-        type: "image",
-        src: "certificate3.jpg",
-        caption: "Achievement Certificate"
-    },
-
-    {
-        type: "image",
-        src: "certificate4.jpg",
-        caption: "Honor Certificate"
-    }
-
-];
-
 const gallery = document.querySelector(".gallery-grid");
 
 const lightbox = document.getElementById("lightbox");
