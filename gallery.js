@@ -118,7 +118,7 @@ const items = [
     {
         type: "image",
         src: "other4.jpg",
-        caption: "Special Moment"
+        caption: "Little me"
     },
     {
         type: "image",
