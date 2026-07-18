@@ -7,7 +7,7 @@ const items = [
     {
         type: "image",
         src: "leadershipaward.jpg",
-        caption: "Leadership Award – City College of New York STEM Institute (April 2026)"
+        caption: "Leadership Award – City College of New York STEM Institute (May 2026)"
     },
 
     {
