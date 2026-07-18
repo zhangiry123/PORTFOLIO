@@ -86,24 +86,19 @@ const items = [
     {
         type: "image",
         src: "soccer2.jpg",
-        caption: "Match Day"
-    },
-    {
-        type: "video",
-        src: "soccer3.mp4",
-        caption: "Game Highlights"
+        caption: "School Soccer Team 2"
     },
     {
         type: "image",
         src: "soccer4.jpg",
-        caption: "Training Session"
+        caption: "School Soccer Team 3"
     },
-    {
+      {
         type: "image",
         src: "soccer5.jpg",
-        caption: "Team Celebration"
+        caption: "School Soccer Team jersey"
     },
-
+   
     // Other
     {
         type: "image",
