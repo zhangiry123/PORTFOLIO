@@ -2,4 +2,73 @@ const gallery = document.querySelector(".gallery-grid");
 
 const items = [
 
+    // Brazilian Jiu-Jitsu
+    {type:"image",src:"bjj1.jpg",caption:"IBJJF Competition"},
+    {type:"image",src:"bjj2.jpg",caption:"Gold Medal Ceremony"},
+    {type:"image",src:"bjj3.jpg",caption:"Competition Match"},
+    {type:"video",src:"bjj4.mp4",caption:"Final Match"},
+    {type:"image",src:"bjj5.jpg",caption:"Team Photo"},
+
+    // Chess
+    {type:"image",src:"chess1.jpg",caption:"United Nations Games"},
+    {type:"image",src:"chess2.jpg",caption:"Queens Chess Day"},
+    {type:"image",src:"chess3.jpg",caption:"Tournament Medal"},
+    {type:"video",src:"chess4.mp4",caption:"Tournament Highlights"},
+    {type:"image",src:"chess5.jpg",caption:"Playing a Tournament"},
+
+    // School
+    {type:"image",src:"school1.jpg",caption:"STEM Institute"},
+    {type:"image",src:"school2.jpg",caption:"Research Presentation"},
+    {type:"image",src:"school3.jpg",caption:"Leadership Award"},
+    {type:"image",src:"school4.jpg",caption:"Certificate Ceremony"},
+    {type:"image",src:"school5.jpg",caption:"School Event"},
+
+    // Projects
+    {type:"image",src:"project1.jpg",caption:"Sunday Market NYC"},
+    {type:"image",src:"project2.jpg",caption:"Website Development"},
+    {type:"video",src:"project3.mp4",caption:"Project Demonstration"},
+    {type:"image",src:"project4.jpg",caption:"AI Research"},
+    {type:"image",src:"project5.jpg",caption:"Programming Session"},
+
+    // Soccer
+    {type:"image",src:"soccer1.jpg",caption:"School Soccer Team"},
+    {type:"image",src:"soccer2.jpg",caption:"Match Day"},
+    {type:"video",src:"soccer3.mp4",caption:"Game Highlights"},
+    {type:"image",src:"soccer4.jpg",caption:"Training"},
+    {type:"image",src:"soccer5.jpg",caption:"Team Celebration"},
+
+    // Other
+    {type:"image",src:"other1.jpg",caption:"Travel"},
+    {type:"image",src:"other2.jpg",caption:"Friends"},
+    {type:"image",src:"other3.jpg",caption:"Conference"},
+    {type:"video",src:"other4.mp4",caption:"Special Moment"},
+    {type:"image",src:"other5.jpg",caption:"Favorite Memory"}
+
 ];
+
+items.forEach(item => {
+
+    const card = document.createElement("div");
+    card.className = "gallery-item";
+
+    if(item.type==="image"){
+
+        card.innerHTML = `
+            <img src="${item.src}" alt="${item.caption}">
+            <div class="caption">${item.caption}</div>
+        `;
+
+    } else {
+
+        card.innerHTML = `
+            <video controls>
+                <source src="${item.src}">
+            </video>
+            <div class="caption">${item.caption}</div>
+        `;
+
+    }
+
+    gallery.appendChild(card);
+
+});
