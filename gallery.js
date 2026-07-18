@@ -34,14 +34,14 @@ const items = [
         caption: "Competition photo"
     },
     {
-        type: "video",
-        src: "bjj4.mp4",
-        caption: "Final Match"
+        type: "image",
+        src: "bjj4.jpg",
+        caption: "Family Jiu-Jitsu photo"
     },
     {
         type: "image",
         src: "bjj5.jpg",
-        caption: "Team Photo"
+        caption: "City Jiu-Jitsu Academy group photo"
     },
 
     // Chess
