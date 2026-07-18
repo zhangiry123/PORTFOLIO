@@ -116,8 +116,8 @@ const items = [
         caption: "Just me"
     },
     {
-        type: "video",
-        src: "other4.mp4",
+        type: "image",
+        src: "other4.jpg",
         caption: "Special Moment"
     },
     {
