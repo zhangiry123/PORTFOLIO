@@ -16,6 +16,11 @@ const items = [
         src: "ccny3.jpg",
         caption: "Holding the Top Project Award after the presentation"
     },
+    {
+        type: "video",
+        src: "ccny4.mp4",
+        caption: "Presenting the Sunday Market NYC project 2"
+    },
 
     // Brazilian Jiu-Jitsu
     {
