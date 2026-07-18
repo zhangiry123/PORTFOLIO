@@ -113,7 +113,7 @@ const items = [
     {
         type: "image",
         src: "other3.jpg",
-        caption: "Conference"
+        caption: "Just me"
     },
     {
         type: "video",
