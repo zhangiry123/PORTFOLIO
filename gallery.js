@@ -7,8 +7,8 @@ const items = [
         caption: "Receiving the Top Project Award at the City College of New York STEM Institute"
     },
     {
-        type: "image",
-        src: "ccny2.jpg",
+        type: "video",
+        src: "ccny2.mp4",
         caption: "Presenting the Sunday Market NYC project"
     },
     {
