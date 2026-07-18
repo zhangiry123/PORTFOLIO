@@ -10,20 +10,23 @@ const items = [
         caption: "Leadership Award – City College of New York STEM Institute (April 2026)"
     },
 
-    
-
     {
         type: "image",
         src: "airesearch.jpg",
-        caption: "Certificate of Achievement – Exceptional Research Project in Artificial Intelligence"
+        caption: "Certificate of Achievement – Exceptional Research Project in Artificial Intelligence (May 2026)"
     },
 
     {
         type: "image",
         src: "stemcertificate.jpg",
-        caption: "STEM Institute Certificate of Participation"
+        caption: "STEM Institute – Certificate of Participation (May 2026)"
     },
 
+        {
+        type: "image",
+        src: "stemcertificate2.jpg",
+        caption: "Top Project Award – Markets in Public Plazas (May 2026)"
+    },
 
 
     // =========================
