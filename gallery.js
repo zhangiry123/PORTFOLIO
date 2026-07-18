@@ -90,11 +90,6 @@ const items = [
     },
     {
         type: "image",
-        src: "soccer3.jpg",
-        caption: "School Soccer Team 3"
-    },
-      {
-        type: "image",
         src: "soccer5.jpg",
         caption: "School Soccer Team jersey"
     },
