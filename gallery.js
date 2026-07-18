@@ -123,7 +123,7 @@ const items = [
     {
         type: "image",
         src: "other5.jpg",
-        caption: "Favorite Memory"
+        caption: "Me with all my awards"
     }
 
 ];
