@@ -53,7 +53,7 @@ const items = [
     {
         type: "image",
         src: "chess2.jpg",
-        caption: "United Nations Games Chess Tournament"
+        caption: "United Nations Games Chess Tournament award"
     },
     {
         type: "image",
