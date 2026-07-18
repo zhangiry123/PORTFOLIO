@@ -71,60 +71,7 @@ const items = [
         caption: "Playing During a Tournament"
     },
 
-    // School
-    {
-        type: "image",
-        src: "school1.jpg",
-        caption: "CCNY STEM Institute"
-    },
-    {
-        type: "image",
-        src: "school2.jpg",
-        caption: "Research Presentation"
-    },
-    {
-        type: "image",
-        src: "school3.jpg",
-        caption: "Leadership Award"
-    },
-    {
-        type: "image",
-        src: "school4.jpg",
-        caption: "Certificate Ceremony"
-    },
-    {
-        type: "image",
-        src: "school5.jpg",
-        caption: "School Event"
-    },
-
-    // Sunday Market NYC Project
-    {
-        type: "image",
-        src: "project1.jpg",
-        caption: "Sunday Market NYC Website"
-    },
-    {
-        type: "image",
-        src: "project2.jpg",
-        caption: "Interactive Vendor & Customer Platform"
-    },
-    {
-        type: "video",
-        src: "project3.mp4",
-        caption: "Project Demonstration"
-    },
-    {
-        type: "image",
-        src: "project4.jpg",
-        caption: "Developing the Website"
-    },
-    {
-        type: "image",
-        src: "project5.jpg",
-        caption: "AI Chatbot for Market Search"
-    },
-
+   
     // Soccer
     {
         type: "image",
