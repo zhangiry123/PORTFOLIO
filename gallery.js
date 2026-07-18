@@ -31,7 +31,7 @@ const items = [
     {
         type: "image",
         src: "bjj3.jpg",
-        caption: "Competition Match"
+        caption: "Competition photo"
     },
     {
         type: "video",
