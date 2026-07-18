@@ -90,7 +90,7 @@ const items = [
     },
     {
         type: "image",
-        src: "soccer4.jpg",
+        src: "soccer3.jpg",
         caption: "School Soccer Team 3"
     },
       {
