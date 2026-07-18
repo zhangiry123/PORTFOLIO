@@ -46,29 +46,29 @@ const items = [
 
     // Chess
     {
-        type: "image",
-        src: "chess1.jpg",
-        caption: "United Nations Games Chess Tournament"
+        type: "video",
+        src: "chess1.mp4",
+        caption: "United Nations Games Chess Tournament award ceromony"
     },
     {
         type: "image",
         src: "chess2.jpg",
-        caption: "Queens Chess Day"
+        caption: "United Nations Games Chess Tournament"
     },
     {
         type: "image",
         src: "chess3.jpg",
-        caption: "Tournament Award"
+        caption: "Little me playing chess"
     },
     {
-        type: "video",
-        src: "chess4.mp4",
+        type: "image",
+        src: "chess4.jpg",
         caption: "Tournament Highlights"
     },
     {
         type: "image",
         src: "chess5.jpg",
-        caption: "Playing During a Tournament"
+        caption: "Queens Day chess tournament award"
     },
 
    
