@@ -4,34 +4,34 @@ const items = [
     {
         type: "image",
         src: "ccny1.jpg",
-        caption: "Receiving the Top Project Award at the City College of New York STEM Institute"
+        caption: "Receiving the Top Project Award at the City College of New York STEM Institute (2026)"
     },
     {
         type: "video",
         src: "ccny2.mp4",
-        caption: "Presenting the Sunday Market NYC project"
+        caption: "Presenting the Sunday Market project at the City College of New York STEM Institute (2026)"
     },
     {
         type: "image",
         src: "ccny3.jpg",
-        caption: "Holding the Top Project Award after the presentation"
+        caption: "Holding the Top Project Award after the presentation at the City College of New York STEM Institute (2026)"
     },
     {
         type: "video",
         src: "ccny4.mp4",
-        caption: "Presenting the Sunday Market NYC project 2"
+        caption: "Presenting the Sunday Market project at the City College of New York STEM Institute (2026) 2"
     },
 
     // Brazilian Jiu-Jitsu
     {
         type: "image",
         src: "bjj1.jpg",
-        caption: "IBJJF Competition"
+        caption: "3rd Place - New Jersey Spring International Open 2026 (IBJJF)"
     },
     {
         type: "image",
         src: "bjj2.jpg",
-        caption: "Gold Medal Ceremony"
+        caption: "1st Place – New York Spring International Open 2026 (IBJJF)"
     },
     {
         type: "image",
@@ -53,12 +53,12 @@ const items = [
     {
         type: "video",
         src: "chess1.mp4",
-        caption: "United Nations Games Chess Tournament award ceromony"
+        caption: "United Nations Games Chess Tournament award ceromony (2025)"
     },
     {
         type: "image",
         src: "chess2.jpg",
-        caption: "United Nations Games Chess Tournament award"
+        caption: "United Nations Games Chess Tournament award (2025)"
     },
     {
         type: "image",
@@ -73,7 +73,7 @@ const items = [
     {
         type: "image",
         src: "chess5.jpg",
-        caption: "Queens Day chess tournament award"
+        caption: "5th place Queens Chess Day at PS 150Q"
     },
 
    
@@ -81,29 +81,29 @@ const items = [
     {
         type: "image",
         src: "soccer1.jpg",
-        caption: "School Soccer Team"
+        caption: "Me in Manhattan Village Academy soccer team (varsity)(2025-2026)"
     },
     {
         type: "image",
         src: "soccer2.jpg",
-        caption: "School Soccer Team 2"
+        caption: "Me in Manhattan Village Academy soccer team (varsity)(2025-2026) 2"
     },
     {
         type: "image",
         src: "soccer5.jpg",
-        caption: "School Soccer Team jersey"
+        caption: "My in Manhattan Village Academy soccer team jersey (varsity)(2025-2026)"
     },
    
     // Other
     {
         type: "image",
         src: "other1.jpg",
-        caption: "Travel"
+        caption: "Traveling to Niagara Falls!!"
     },
     {
         type: "image",
         src: "other2.jpg",
-        caption: "Friends"
+        caption: "My friends"
     },
     {
         type: "image",
